@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eacbb0;
+    color: #eacbb0;
+    transition: 1s;
+}
+.main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    background-color: #9d6947;
+}
+h1 {
+    font-size: 50px;
+}
+.center {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.changer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.changer button{
+    font-size: 35px;
+    height: 80px;
+    width: 270px;
+    border-radius: 50px;
+    background-color: #c8abb6;
+    color: #822a4a;
+    border: solid #822a4a;
+}
+#colorbox {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #c8abb6;
+    border-radius: 20px;
+}
+ 
+#colorbox span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.all{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    gap: 5%;
+}
+.aboutme {
+    /* position: sticky; */
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-right: -20px; */
+}
+.me{
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: -20px;
+    width: 250px;
+    padding: 35px;
+    background-color: #9d6947;
+    border-radius: 70px;
+}
+.me h1 {
+    margin: auto;
+}
+.about{
+    display: flex;
+    padding: 50px;
+    width: 100%;
+    background-color: #9d6947;
+    border-radius: 100px;
+}
+p {
+    font-size: 28px;
+}
+a {
+    color: #c8abb6;
+
+}
+.image {
+    width: 45%;
+}
+.image img {
+    width: 100%;
+    border: 20px solid #9d6947;
+    border-radius: 500px;
+}
+
+.victory {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.info{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -100px;
+}
+.bloginfo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -100px;
+}
+.winning {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 70px;
+    background-color: #9d6947;
+}
+.winning h1 {
+    margin: auto;
+}
+.winningabout {
+    display: flex;
+    padding: 50px 80px 50px 80px;
+    background-color: #9d6947;
+    border-radius: 100px;
+    margin-top: -150px;
+}
+.winimage {
+    width: 40%;
+    position: sticky;
+}
+.winimage img {
+    width: 100%;
+    border: 20px solid #9d6947;
+    border-radius: 2%;
+}
+
+.allimage {
+    width: 40%;
+    position: sticky;
+}
+
+.allimage img {
+    width: 100%;
+    border: 20px solid #9d6947;
+    border-radius: 100%;
+}
+
+.blogimage {
+    width: 50%;
+    position: sticky;
+}
+.blogimage img {
+    width: 100%;
+    border: 10px solid #9d6947;
+    border-radius: 10%;
+}
+
+.contact {
+    width: 30%;
+    margin: auto;
+    border: solid #633c1f;
+    background-color: #9d6947;
+    border-radius: 50px;
+}
+form{
+    padding: 50px;
+}
+.contact h1 {
+    text-align: center;
+}
+.enter {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    font-size: 30px;
+}
+input{
+    height: 40px;
+    border: solid #633c1f;
+    border-radius: 10px;
+    background-color: #eacbb0;
+}
+.mess{
+    height: 100px;
+}
+.bot-send-mail{
+    width: 270px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: solid #822a4a;
+    border-radius: 50px;
+    color: #822a4a;
+    background-color: #c8abb6;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #9d6947;
+}
+.block {
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+.centerblock{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.centerblock h1 {
+    font-size: 90px;
+}
+.networks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.networks img {
+    height: 70px;
+}
+#made {
+    color: #c8abb6;
+    text-align: center;
+    padding: 30px;
+}
+
+.hobby {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+}
+.line {
+    width: 100%;
+    height: 30px;
+    background-color: #9d6947;
+}
