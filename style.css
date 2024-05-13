@@ -279,3 +279,14 @@ footer {
     height: 30px;
     background-color: #9d6947;
 }
+
+.arrow {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #c8abb6;
+    border-radius: 100%;
+}
+.arrow img {
+    width: 100px;
+}
